@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="MixerVCA" id="{ea87070d-bd0f-44f5-87ed-e6b56d28914e}">
+	<object class="MixerVCA" id="{227df702-7075-4ed1-82ea-d929528df710}">
 		<property name="name">
-			<value>Mute</value>
+			<value>Tavern_amb</value>
 		</property>
+		<relationship name="masters">
+			<destination>{ea87070d-bd0f-44f5-87ed-e6b56d28914e}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{43949d41-73d1-4c6c-a921-19bf51bb6334}</destination>
 		</relationship>
