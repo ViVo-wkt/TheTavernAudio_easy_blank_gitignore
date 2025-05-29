@@ -121,7 +121,7 @@
 			<destination>{da4a7a1c-4d64-4986-aa3c-afb70e5021cb}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
-			<destination>{72d537ef-17a8-4502-84a3-b98b02252975}</destination>
+			<destination>{02f0cb32-685c-400c-8a2a-6fd0578864d9}</destination>
 		</relationship>
 		<relationship name="sounds">
 			<destination>{36a0f343-75db-44cc-a83a-25a0aab70412}</destination>
@@ -207,12 +207,12 @@
 			<value>8.33333397</value>
 		</property>
 	</object>
-	<object class="ParameterCondition" id="{72d537ef-17a8-4502-84a3-b98b02252975}">
+	<object class="ParameterCondition" id="{02f0cb32-685c-400c-8a2a-6fd0578864d9}">
 		<property name="minimum">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{8f29b364-ad5b-45a9-bf06-166b6b4bac97}</destination>
@@ -273,10 +273,10 @@
 	</object>
 	<object class="ParameterCondition" id="{bf3ad4ee-830a-4860-9b47-83a334758196}">
 		<property name="minimum">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{8f29b364-ad5b-45a9-bf06-166b6b4bac97}</destination>

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/JumpsFull/FootstepSurfaceSwitch
+  m_Name: parameter:/JumpsFull/FootstepSurface
   m_EditorClassIdentifier: 
-  Name: FootstepSurfaceSwitch
+  Name: FootstepSurface
   StudioPath: 
   Min: 0
   Max: 1
@@ -23,8 +23,34 @@ MonoBehaviour:
   Type: 2
   IsGlobal: 0
   Labels:
-  - StoneSurface
-  - WoodSurface
+  - Wood
+  - Stone
+  Exists: 1
+--- !u!114 &-6159030457855274429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fire(place)/Fire
+  m_EditorClassIdentifier: 
+  Name: Fire
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3987935598
+    data2: 3609911278
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - False
+  - True
   Exists: 1
 --- !u!114 &-6039517884604033448
 MonoBehaviour:
@@ -36,9 +62,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Jumps/FootstepSurfaceSwitch
+  m_Name: parameter:/Jumps/FootstepSurface
   m_EditorClassIdentifier: 
-  Name: FootstepSurfaceSwitch
+  Name: FootstepSurface
   StudioPath: 
   Min: 0
   Max: 1
@@ -49,8 +75,8 @@ MonoBehaviour:
   Type: 2
   IsGlobal: 0
   Labels:
-  - StoneSurface
-  - WoodSurface
+  - Wood
+  - Stone
   Exists: 1
 --- !u!114 &-5514794228402117655
 MonoBehaviour:
@@ -75,7 +101,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -6159030457855274429}
   MinDistance: 1
   MaxDistance: 20
   Length: 80000
@@ -253,9 +280,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Footsteps/FootstepSurfaceSwitch
+  m_Name: parameter:/Footsteps/FootstepSurface
   m_EditorClassIdentifier: 
-  Name: FootstepSurfaceSwitch
+  Name: FootstepSurface
   StudioPath: 
   Min: 0
   Max: 1
@@ -266,8 +293,8 @@ MonoBehaviour:
   Type: 2
   IsGlobal: 0
   Labels:
-  - StoneSurface
-  - WoodSurface
+  - Wood
+  - Stone
   Exists: 1
 --- !u!114 &-597734990075633754
 MonoBehaviour:
@@ -338,10 +365,10 @@ MonoBehaviour:
   Path: Audio Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638841112139563124
+  lastModified: 638841125664982919
   FileSizes:
   - Name: Desktop
-    Value: 6927616
+    Value: 6927776
   Exists: 1
 --- !u!114 &-258257219898151923
 MonoBehaviour:
@@ -358,10 +385,10 @@ MonoBehaviour:
   Path: Audio Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638841112139583127
+  lastModified: 638841125665004077
   FileSizes:
   - Name: Desktop
-    Value: 1682
+    Value: 1722
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -395,7 +422,7 @@ MonoBehaviour:
   - {fileID: -535209291301874979}
   StringsBanks:
   - {fileID: -258257219898151923}
-  cacheTime: 638841112139583127
+  cacheTime: 638841125665004077
   cacheVersion: 131617
 --- !u!114 &109902529625560482
 MonoBehaviour:
@@ -571,9 +598,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Landings/FootstepSurfaceSwitch
+  m_Name: parameter:/Landings/FootstepSurface
   m_EditorClassIdentifier: 
-  Name: FootstepSurfaceSwitch
+  Name: FootstepSurface
   StudioPath: 
   Min: 0
   Max: 1
@@ -584,6 +611,6 @@ MonoBehaviour:
   Type: 2
   IsGlobal: 0
   Labels:
-  - StoneSurface
-  - WoodSurface
+  - Wood
+  - Stone
   Exists: 1
