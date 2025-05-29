@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{a3024f1a-de20-4bf9-9c76-6332934c6d99}">
+		<property name="assetPath">
+			<value>Medieval/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ae3faf30-d13c-4de4-88e5-18d5f66cbbba}</destination>
+		</relationship>
+	</object>
+</objects>

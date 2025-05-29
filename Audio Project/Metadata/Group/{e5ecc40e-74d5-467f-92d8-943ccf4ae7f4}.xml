@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{e5ecc40e-74d5-467f-92d8-943ccf4ae7f4}">
+		<property name="name">
+			<value>RoomAmbient</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{4d285067-3b33-4bdc-9a0c-8103762582eb}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{350fa962-744d-4c89-9fcc-45ff3cffee38}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1b87c46c-6fb0-46c4-9bfa-dfc01d43da80}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{4d285067-3b33-4bdc-9a0c-8103762582eb}">
+		<relationship name="effects">
+			<destination>{0520d8d1-e309-4734-b472-b3809d311bce}</destination>
+			<destination>{6d8f0ac2-c387-402e-a352-818f9f9d6d67}</destination>
+			<destination>{edd2ab82-2cab-4cb0-9418-ceb3cdc625a5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{350fa962-744d-4c89-9fcc-45ff3cffee38}" />
+	<object class="MixerBusFader" id="{0520d8d1-e309-4734-b472-b3809d311bce}" />
+	<object class="MultibandEqEffect" id="{6d8f0ac2-c387-402e-a352-818f9f9d6d67}">
+		<property name="filterTypeA">
+			<value>0</value>
+		</property>
+		<property name="filterTypeE">
+			<value>8</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{edd2ab82-2cab-4cb0-9418-ceb3cdc625a5}" />
+</objects>
