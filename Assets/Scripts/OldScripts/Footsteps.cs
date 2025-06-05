@@ -30,7 +30,7 @@ public class Footsteps : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log(IsGrounded());
+            //Debug.Log(IsGrounded());
             PlayJump();
         }        
     }
@@ -171,6 +171,7 @@ public class Footsteps : MonoBehaviour
     {
         if (IsGrounded() && isGrounded == false)
         {
+            //Debug.Log("Landing");
             PlayLanding();
         }
     }

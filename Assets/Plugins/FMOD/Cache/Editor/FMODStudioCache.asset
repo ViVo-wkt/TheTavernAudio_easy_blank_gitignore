@@ -265,7 +265,6 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 2187432676365367050}
   - {fileID: 8346753375692372922}
   MinDistance: 1
   MaxDistance: 20
@@ -365,10 +364,10 @@ MonoBehaviour:
   Path: Audio Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638841138252125797
+  lastModified: 638847097232565356
   FileSizes:
   - Name: Desktop
-    Value: 6928128
+    Value: 6928032
   Exists: 1
 --- !u!114 &-258257219898151923
 MonoBehaviour:
@@ -385,7 +384,7 @@ MonoBehaviour:
   Path: Audio Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638841138252140849
+  lastModified: 638847097232590402
   FileSizes:
   - Name: Desktop
     Value: 1804
@@ -422,7 +421,7 @@ MonoBehaviour:
   - {fileID: -535209291301874979}
   StringsBanks:
   - {fileID: -258257219898151923}
-  cacheTime: 638841138252140849
+  cacheTime: 638847097232590402
   cacheVersion: 131617
 --- !u!114 &109902529625560482
 MonoBehaviour:
@@ -480,32 +479,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 46000
---- !u!114 &2187432676365367050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Landings/isGrounded
-  m_EditorClassIdentifier: 
-  Name: isGrounded
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 1
-  ID:
-    data1: 3776844473
-    data2: 1771638808
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - False
-  - True
-  Exists: 1
 --- !u!114 &2231522747946479637
 MonoBehaviour:
   m_ObjectHideFlags: 0
