@@ -11,7 +11,7 @@ public class VCA : MonoBehaviour
     FMOD.Studio.VCA TavernVCA;
     FMOD.Studio.VCA OutsideVCA;
 
-    private bool muteActive = true;
+    private bool muteActive = false;
     private bool musicMuteActive = false;
     private bool tavernMuteActive = false;
     private bool outsideMuteActive = false;
