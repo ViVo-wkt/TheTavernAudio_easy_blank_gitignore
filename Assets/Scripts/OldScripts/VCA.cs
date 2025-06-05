@@ -23,7 +23,7 @@ public class VCA : MonoBehaviour
         TavernVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Tavern_amb");
         OutsideVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Outside_amb");
 
-        GlobalVCA.setVolume(DecibelToLinear(-100));
+        GlobalVCA.setVolume(DecibelToLinear(0));
     }
 
     void Update()
