@@ -1,31 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9190559788373852453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/JumpsFull/FootstepSurface
-  m_EditorClassIdentifier: 
-  Name: FootstepSurface
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 326328101
-    data2: 2155345506
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Wood
-  - Stone
-  Exists: 1
 --- !u!114 &-6159030457855274429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,6 +162,32 @@ MonoBehaviour:
   - Open
   - Closed
   Exists: 1
+--- !u!114 &-4400543682108963537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jumps&Landings/FootstepSurface
+  m_EditorClassIdentifier: 
+  Name: FootstepSurface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 326328101
+    data2: 2155345506
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Wood
+  - Stone
+  Exists: 1
 --- !u!114 &-4032471469117164208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,32 +295,6 @@ MonoBehaviour:
   - Wood
   - Stone
   Exists: 1
---- !u!114 &-597734990075633754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/JumpsFull/isGrounded
-  m_EditorClassIdentifier: 
-  Name: isGrounded
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 1
-  ID:
-    data1: 3776844473
-    data2: 1771638808
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - False
-  - True
-  Exists: 1
 --- !u!114 &-589435865981449911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,6 +323,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 750
+--- !u!114 &-558774653684960298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jumps&Landings/isGrounded
+  m_EditorClassIdentifier: 
+  Name: isGrounded
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 3776844473
+    data2: 1771638808
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - False
+  - True
+  Exists: 1
 --- !u!114 &-535209291301874979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,10 +364,10 @@ MonoBehaviour:
   Path: Audio Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638847112472489322
+  lastModified: 638847127124243307
   FileSizes:
   - Name: Desktop
-    Value: 6928512
+    Value: 6929056
   Exists: 1
 --- !u!114 &-258257219898151923
 MonoBehaviour:
@@ -384,10 +384,10 @@ MonoBehaviour:
   Path: Audio Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638847112472509326
+  lastModified: 638847127124268396
   FileSizes:
   - Name: Desktop
-    Value: 1804
+    Value: 1810
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -409,49 +409,20 @@ MonoBehaviour:
   - {fileID: -3354323942278964460}
   - {fileID: -589435865981449911}
   - {fileID: 1295478999594854790}
-  - {fileID: 109902529625560482}
   - {fileID: -5270415227130189718}
   - {fileID: 7037534629526093640}
   - {fileID: -5514794228402117655}
   - {fileID: -5339331140342948908}
   - {fileID: 2231522747946479637}
   - {fileID: 3612529338998141529}
+  - {fileID: 8965945642128480056}
   EditorParameters: []
   MasterBanks:
   - {fileID: -535209291301874979}
   StringsBanks:
   - {fileID: -258257219898151923}
-  cacheTime: 638847112472509326
+  cacheTime: 638847127124268396
   cacheVersion: 131617
---- !u!114 &109902529625560482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Events/JumpsFull
-  m_EditorClassIdentifier: 
-  Path: event:/Events/JumpsFull
-  Guid:
-    Data1: 165208740
-    Data2: 1293980592
-    Data3: 642160783
-    Data4: 452151838
-  Banks:
-  - {fileID: -535209291301874979}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -9190559788373852453}
-  - {fileID: -597734990075633754}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 806
 --- !u!114 &1295478999594854790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -587,3 +558,32 @@ MonoBehaviour:
   - Wood
   - Stone
   Exists: 1
+--- !u!114 &8965945642128480056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/Jumps&Landings
+  m_EditorClassIdentifier: 
+  Path: event:/Events/Jumps&Landings
+  Guid:
+    Data1: 165208740
+    Data2: 1293980592
+    Data3: 642160783
+    Data4: 452151838
+  Banks:
+  - {fileID: -535209291301874979}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -4400543682108963537}
+  - {fileID: -558774653684960298}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 806
