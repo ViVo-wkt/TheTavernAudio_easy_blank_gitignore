@@ -83,7 +83,7 @@ public class Footsteps : MonoBehaviour
             {
                 FootstepsSound = FMODUnity.RuntimeManager.CreateInstance(footstepsEvent);
                 FootstepsSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
-                FootstepsSound.setParameterByNameWithLabel("FootstepSurface", "Stone");
+                FootstepsSound.setParameterByNameWithLabel("FootstepSurface", "Grass");
                 FootstepsSound.start();
                 FootstepsSound.release();
             }
@@ -139,12 +139,12 @@ public class Footsteps : MonoBehaviour
                     }
                     else if (hit.collider.CompareTag("Inside_stone"))
                     {
-                        LandSound.setParameterByNameWithLabel("FootstepSurface", "Stone");
+                        JumpSound.setParameterByNameWithLabel("FootstepSurface", "Stone");
                         JumpSound.start();
                     }
                     else if (hit.collider.CompareTag("Inside_wood"))
                     {
-                        LandSound.setParameterByNameWithLabel("FootstepSurface", "Wood");
+                        JumpSound.setParameterByNameWithLabel("FootstepSurface", "Wood");
                         JumpSound.start();
                     }
                     else if (hit.collider.CompareTag("Bed"))
