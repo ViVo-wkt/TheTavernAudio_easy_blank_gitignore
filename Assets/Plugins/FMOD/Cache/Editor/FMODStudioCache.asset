@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6949086178605064093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/outsideSnapshot
+  m_EditorClassIdentifier: 
+  Path: snapshot:/outsideSnapshot
+  Guid:
+    Data1: 1033596257
+    Data2: 1289538363
+    Data3: -545166668
+    Data4: -1509293375
+  Banks:
+  - {fileID: -535209291301874979}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-6159030457855274429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,33 +215,6 @@ MonoBehaviour:
   - Wood
   - Stone
   Exists: 1
---- !u!114 &-4032471469117164208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Outside
-  m_EditorClassIdentifier: 
-  Path: snapshot:/Outside
-  Guid:
-    Data1: 1033596257
-    Data2: 1289538363
-    Data3: -545166668
-    Data4: -1509293375
-  Banks:
-  - {fileID: -535209291301874979}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &-4019443483160859693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,10 +364,10 @@ MonoBehaviour:
   Path: Audio Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638847139683562654
+  lastModified: 638847166038280281
   FileSizes:
   - Name: Desktop
-    Value: 6929056
+    Value: 6929504
   Exists: 1
 --- !u!114 &-258257219898151923
 MonoBehaviour:
@@ -384,10 +384,10 @@ MonoBehaviour:
   Path: Audio Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638847139683587739
+  lastModified: 638847166038305310
   FileSizes:
   - Name: Desktop
-    Value: 1810
+    Value: 1814
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -405,7 +405,6 @@ MonoBehaviour:
   - {fileID: -258257219898151923}
   - {fileID: -535209291301874979}
   EditorEvents:
-  - {fileID: -4032471469117164208}
   - {fileID: -3354323942278964460}
   - {fileID: -589435865981449911}
   - {fileID: 1295478999594854790}
@@ -416,12 +415,13 @@ MonoBehaviour:
   - {fileID: 2231522747946479637}
   - {fileID: 3612529338998141529}
   - {fileID: 8965945642128480056}
+  - {fileID: -6949086178605064093}
   EditorParameters: []
   MasterBanks:
   - {fileID: -535209291301874979}
   StringsBanks:
   - {fileID: -258257219898151923}
-  cacheTime: 638847139683587739
+  cacheTime: 638847166038305310
   cacheVersion: 131617
 --- !u!114 &1295478999594854790
 MonoBehaviour:
