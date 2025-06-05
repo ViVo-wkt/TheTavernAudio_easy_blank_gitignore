@@ -178,7 +178,7 @@ MonoBehaviour:
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 1
+  Default: 0
   ID:
     data1: 3269255493
     data2: 3963434477
@@ -342,7 +342,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -535209291301874979}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters:
   - {fileID: -4852749799351040007}
@@ -364,10 +364,10 @@ MonoBehaviour:
   Path: Audio Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638847097232565356
+  lastModified: 638847112472489322
   FileSizes:
   - Name: Desktop
-    Value: 6928032
+    Value: 6928512
   Exists: 1
 --- !u!114 &-258257219898151923
 MonoBehaviour:
@@ -384,7 +384,7 @@ MonoBehaviour:
   Path: Audio Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638847097232590402
+  lastModified: 638847112472509326
   FileSizes:
   - Name: Desktop
     Value: 1804
@@ -421,7 +421,7 @@ MonoBehaviour:
   - {fileID: -535209291301874979}
   StringsBanks:
   - {fileID: -258257219898151923}
-  cacheTime: 638847097232590402
+  cacheTime: 638847112472509326
   cacheVersion: 131617
 --- !u!114 &109902529625560482
 MonoBehaviour:
