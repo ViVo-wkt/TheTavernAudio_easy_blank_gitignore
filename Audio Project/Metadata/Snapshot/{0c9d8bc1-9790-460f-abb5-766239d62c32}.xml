@@ -95,6 +95,12 @@
 		<property name="peakValue">
 			<value>-100</value>
 		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
 		<property name="sustainValue">
 			<value>-100</value>
 		</property>
