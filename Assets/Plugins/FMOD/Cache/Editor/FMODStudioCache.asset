@@ -68,7 +68,7 @@ MonoBehaviour:
   Name: FootstepSurface
   StudioPath: 
   Min: 0
-  Max: 1
+  Max: 2
   Default: 0
   ID:
     data1: 326328101
@@ -78,6 +78,7 @@ MonoBehaviour:
   Labels:
   - Wood
   - Stone
+  - Bed
   Exists: 1
 --- !u!114 &-5514794228402117655
 MonoBehaviour:
@@ -162,7 +163,7 @@ MonoBehaviour:
   - {fileID: -4019443483160859693}
   MinDistance: 1
   MaxDistance: 20
-  Length: 501
+  Length: 910
 --- !u!114 &-4852749799351040007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,7 +205,7 @@ MonoBehaviour:
   Name: FootstepSurface
   StudioPath: 
   Min: 0
-  Max: 1
+  Max: 2
   Default: 0
   ID:
     data1: 326328101
@@ -214,6 +215,7 @@ MonoBehaviour:
   Labels:
   - Wood
   - Stone
+  - Bed
   Exists: 1
 --- !u!114 &-4019443483160859693
 MonoBehaviour:
@@ -268,7 +270,7 @@ MonoBehaviour:
   - {fileID: 8346753375692372922}
   MinDistance: 1
   MaxDistance: 20
-  Length: 806
+  Length: 910
 --- !u!114 &-2444516505215425729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -284,7 +286,7 @@ MonoBehaviour:
   Name: FootstepSurface
   StudioPath: 
   Min: 0
-  Max: 1
+  Max: 2
   Default: 0
   ID:
     data1: 326328101
@@ -294,6 +296,7 @@ MonoBehaviour:
   Labels:
   - Wood
   - Stone
+  - Bed
   Exists: 1
 --- !u!114 &-589435865981449911
 MonoBehaviour:
@@ -364,10 +367,10 @@ MonoBehaviour:
   Path: Audio Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638847172908109249
+  lastModified: 638853167976379806
   FileSizes:
   - Name: Desktop
-    Value: 6929504
+    Value: 6959168
   Exists: 1
 --- !u!114 &-258257219898151923
 MonoBehaviour:
@@ -384,10 +387,10 @@ MonoBehaviour:
   Path: Audio Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638847172908134277
+  lastModified: 638853167976406171
   FileSizes:
   - Name: Desktop
-    Value: 1814
+    Value: 1854
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -416,13 +419,41 @@ MonoBehaviour:
   - {fileID: 3612529338998141529}
   - {fileID: 8965945642128480056}
   - {fileID: -6949086178605064093}
+  - {fileID: 908509714016829113}
   EditorParameters: []
   MasterBanks:
   - {fileID: -535209291301874979}
   StringsBanks:
   - {fileID: -258257219898151923}
-  cacheTime: 638847172908134277
+  cacheTime: 638853167976406171
   cacheVersion: 131617
+--- !u!114 &908509714016829113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/LowHealth
+  m_EditorClassIdentifier: 
+  Path: snapshot:/LowHealth
+  Guid:
+    Data1: -1953627587
+    Data2: 1259999950
+    Data3: 1376136372
+    Data4: -867113408
+  Banks:
+  - {fileID: -535209291301874979}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &1295478999594854790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,7 +535,7 @@ MonoBehaviour:
   - {fileID: -2444516505215425729}
   MinDistance: 1
   MaxDistance: 20
-  Length: 487
+  Length: 910
 --- !u!114 &7037534629526093640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,7 +578,7 @@ MonoBehaviour:
   Name: FootstepSurface
   StudioPath: 
   Min: 0
-  Max: 1
+  Max: 2
   Default: 0
   ID:
     data1: 326328101
@@ -557,6 +588,7 @@ MonoBehaviour:
   Labels:
   - Wood
   - Stone
+  - Bed
   Exists: 1
 --- !u!114 &8965945642128480056
 MonoBehaviour:

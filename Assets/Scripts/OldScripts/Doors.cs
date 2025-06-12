@@ -74,14 +74,14 @@ public class Doors : MonoBehaviour, IInteractable
         if (doorsOpened == true)
         {            
             DoorsSound = FMODUnity.RuntimeManager.CreateInstance(DoorsEvent);
-            DoorsSound.setParameterByNameWithLabel("DoorStatus", "Closed");
+            DoorsSound.setParameterByNameWithLabel("DoorStatus", "Open");
             DoorsSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
             DoorsSound.start();
             //FMODUnity.RuntimeManager.PlayOneShot(DoorsEvent);
         }
         else
         {
-            DoorsSound.setParameterByNameWithLabel("DoorStatus", "Open");
+            DoorsSound.setParameterByNameWithLabel("DoorStatus", "Closed");
             DoorsSound.start();
             DoorsSound.release();
         }

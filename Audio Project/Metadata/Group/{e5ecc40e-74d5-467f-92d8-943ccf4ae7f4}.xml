@@ -17,19 +17,14 @@
 	<object class="MixerBusEffectChain" id="{4d285067-3b33-4bdc-9a0c-8103762582eb}">
 		<relationship name="effects">
 			<destination>{0520d8d1-e309-4734-b472-b3809d311bce}</destination>
-			<destination>{6d8f0ac2-c387-402e-a352-818f9f9d6d67}</destination>
-			<destination>{edd2ab82-2cab-4cb0-9418-ceb3cdc625a5}</destination>
+			<destination>{4fc4fd53-fada-4d1f-90e0-191272f2f33d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{350fa962-744d-4c89-9fcc-45ff3cffee38}" />
 	<object class="MixerBusFader" id="{0520d8d1-e309-4734-b472-b3809d311bce}" />
-	<object class="MultibandEqEffect" id="{6d8f0ac2-c387-402e-a352-818f9f9d6d67}">
+	<object class="MultibandEqEffect" id="{4fc4fd53-fada-4d1f-90e0-191272f2f33d}">
 		<property name="filterTypeA">
-			<value>0</value>
-		</property>
-		<property name="filterTypeE">
 			<value>8</value>
 		</property>
 	</object>
-	<object class="SFXReverbEffect" id="{edd2ab82-2cab-4cb0-9418-ceb3cdc625a5}" />
 </objects>

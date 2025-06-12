@@ -103,6 +103,14 @@ public class Footsteps : MonoBehaviour
                 FootstepsSound.start();
                 FootstepsSound.release();
             }
+            else if (hit.collider.CompareTag("Bed"))
+            {
+                FootstepsSound = FMODUnity.RuntimeManager.CreateInstance(footstepsEvent);
+                FootstepsSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+                FootstepsSound.setParameterByNameWithLabel("FootstepSurface", "Bed");
+                FootstepsSound.start();
+                FootstepsSound.release();
+            }
             else
             {
                 FootstepsSound = FMODUnity.RuntimeManager.CreateInstance(footstepsEvent);
