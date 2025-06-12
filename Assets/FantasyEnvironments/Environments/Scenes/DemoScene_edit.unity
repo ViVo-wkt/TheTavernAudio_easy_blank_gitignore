@@ -3355,6 +3355,7 @@ GameObject:
   - component: {fileID: 613997996}
   - component: {fileID: 613997995}
   - component: {fileID: 613997997}
+  - component: {fileID: 613997998}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -3608,6 +3609,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f4ed2e91580f4459a40df16f56ba56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &613997998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613997984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d9851f7a55ac424b8a88ba3bf7ec135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireplaceEmitter: {fileID: 1532896719}
 --- !u!4 &676867135 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4014197550502822, guid: cb181bc6c302bca40929333077286a04, type: 3}
@@ -7337,6 +7351,17 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1532896719 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1870695489415497684, guid: 63346a7448404644da8be8ff0a98a82b, type: 3}
+  m_PrefabInstance: {fileID: 7522821091163648382}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1552246197
 GameObject:
   m_ObjectHideFlags: 0
@@ -11222,11 +11247,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1870695489415497684, guid: 63346a7448404644da8be8ff0a98a82b, type: 3}
       propertyPath: OverrideMaxDistance
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1870695489415497684, guid: 63346a7448404644da8be8ff0a98a82b, type: 3}
       propertyPath: OverrideMinDistance
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1870695489415497684, guid: 63346a7448404644da8be8ff0a98a82b, type: 3}
       propertyPath: EventReference.Guid.Data1
