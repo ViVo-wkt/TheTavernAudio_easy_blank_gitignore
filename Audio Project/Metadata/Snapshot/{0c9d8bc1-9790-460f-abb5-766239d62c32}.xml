@@ -89,11 +89,8 @@
 		<property name="nameOfPropertyBeingModulated">
 			<value>value</value>
 		</property>
-		<property name="attackTime">
-			<value>760</value>
-		</property>
 		<property name="attackShape">
-			<value>0.419218838</value>
+			<value>0.103384286</value>
 		</property>
 		<property name="peakValue">
 			<value>-100</value>
@@ -102,7 +99,7 @@
 			<value>-100</value>
 		</property>
 		<property name="releaseShape">
-			<value>-0.463001132</value>
+			<value>-0.103384294</value>
 		</property>
 	</object>
 </objects>

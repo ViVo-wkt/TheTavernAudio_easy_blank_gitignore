@@ -93,7 +93,7 @@
 			<value>frequencyA</value>
 		</property>
 		<property name="value">
-			<value>1024.91663</value>
+			<value>1000</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{d4f91a4d-4562-4ab1-9d45-af490276dba2}</destination>
@@ -115,8 +115,11 @@
 			<value>gainA</value>
 		</property>
 		<property name="value">
-			<value>-30</value>
+			<value>0</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{670d8033-443e-47c8-b2f2-d160a0d63f53}</destination>
+		</relationship>
 		<relationship name="automatableObject">
 			<destination>{d4f91a4d-4562-4ab1-9d45-af490276dba2}</destination>
 		</relationship>
@@ -126,7 +129,7 @@
 			<value>frequencyA</value>
 		</property>
 		<property name="value">
-			<value>1024.91663</value>
+			<value>1000</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{1742b4d0-2024-47bc-99fc-54821c48c75d}</destination>
@@ -148,8 +151,11 @@
 			<value>gainA</value>
 		</property>
 		<property name="value">
-			<value>-30</value>
+			<value>0</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{cc19169b-8918-466e-906c-7e246e869a38}</destination>
+		</relationship>
 		<relationship name="automatableObject">
 			<destination>{1742b4d0-2024-47bc-99fc-54821c48c75d}</destination>
 		</relationship>
@@ -195,5 +201,39 @@
 		<relationship name="mixerStrip">
 			<destination>{1b87c46c-6fb0-46c4-9bfa-dfc01d43da80}</destination>
 		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{670d8033-443e-47c8-b2f2-d160a0d63f53}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="attackTime">
+			<value>760</value>
+		</property>
+		<property name="peakValue">
+			<value>-100</value>
+		</property>
+		<property name="sustainValue">
+			<value>-100</value>
+		</property>
+		<property name="releaseTime">
+			<value>760</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{cc19169b-8918-466e-906c-7e246e869a38}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="attackTime">
+			<value>760</value>
+		</property>
+		<property name="peakValue">
+			<value>-100</value>
+		</property>
+		<property name="sustainValue">
+			<value>-100</value>
+		</property>
+		<property name="releaseTime">
+			<value>760</value>
+		</property>
 	</object>
 </objects>
