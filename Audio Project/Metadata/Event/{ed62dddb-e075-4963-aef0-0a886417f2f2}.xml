@@ -104,7 +104,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{af60feec-05f4-4b3c-888b-7c25528f2063}">
 		<property name="volume">
-			<value>-2</value>
+			<value>-5.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{6daeba83-031a-4865-aa9b-6d2f132b78c5}</destination>
@@ -231,6 +231,7 @@
 		<relationship name="effects">
 			<destination>{1e9bac5f-4d41-475f-af4f-5d8441bc10b5}</destination>
 			<destination>{5f102c97-99d1-46de-a2e8-acd1520a8242}</destination>
+			<destination>{bf9d031d-2dc4-4e17-8888-3351927e52a2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ce1e0e36-7957-41f6-9d0b-b42e979acc9d}" />
@@ -412,8 +413,23 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{57ae743c-fb29-4510-9047-56ce8df53c66}" />
-	<object class="SFXReverbEffect" id="{1e9bac5f-4d41-475f-af4f-5d8441bc10b5}" />
+	<object class="SFXReverbEffect" id="{1e9bac5f-4d41-475f-af4f-5d8441bc10b5}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{5f102c97-99d1-46de-a2e8-acd1520a8242}" />
+	<object class="MixerSend" id="{bf9d031d-2dc4-4e17-8888-3351927e52a2}">
+		<property name="level">
+			<value>-50</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{f274cfed-e9f2-4c01-99bf-1d3788454e50}</destination>
+		</relationship>
+	</object>
 	<object class="ThreeEQEffect" id="{90629bca-6568-4e5c-aa50-46e4ddc9a260}">
 		<property name="lowGain">
 			<value>-1</value>

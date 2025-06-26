@@ -80,9 +80,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c088dba6-9c5a-42f4-a97d-344e6e27aae0}">
-		<property name="volume">
-			<value>1.5</value>
-		</property>
 		<relationship name="modulators">
 			<destination>{0f02e824-7596-4968-a407-c07d9c2842ac}</destination>
 		</relationship>
@@ -109,6 +106,9 @@
 		<property name="timelockedOffset">
 			<value>8.5</value>
 		</property>
+		<property name="volume">
+			<value>2</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{6118247a-14f4-4d7b-bca1-c2d9b82393d8}</destination>
 		</relationship>
@@ -123,6 +123,9 @@
 		<property name="length">
 			<value>8.5</value>
 		</property>
+		<property name="volume">
+			<value>2</value>
+		</property>
 		<relationship name="fadeInCurve">
 			<destination>{5510bef7-a039-4f3d-94ad-7e23d8c9fd48}</destination>
 		</relationship>
@@ -131,6 +134,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8a1d9a1d-5e65-43b7-a840-2582bd096d45}">
+		<property name="volume">
+			<value>1</value>
+		</property>
 		<property name="name">
 			<value>Forest</value>
 		</property>
@@ -200,7 +206,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{0909c2c5-20a9-4c4f-9252-7d3734f22f0a}">
 		<relationship name="effects">
-			<destination>{a3947f7c-6332-4d8b-bc4d-e2bddfffd703}</destination>
 			<destination>{24907136-275e-4f8a-ad9a-9c0a1e41fdaf}</destination>
 			<destination>{c3fb4235-18d5-42b0-ab8a-1a7160685a35}</destination>
 		</relationship>
@@ -243,11 +248,6 @@
 		</property>
 		<property name="value">
 			<value>1</value>
-		</property>
-	</object>
-	<object class="ThreeEQEffect" id="{a3947f7c-6332-4d8b-bc4d-e2bddfffd703}">
-		<property name="bypass">
-			<value>true</value>
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{24907136-275e-4f8a-ad9a-9c0a1e41fdaf}">

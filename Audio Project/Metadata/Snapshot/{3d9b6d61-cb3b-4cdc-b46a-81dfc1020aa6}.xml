@@ -51,10 +51,10 @@
 			<value>volume</value>
 		</property>
 		<property name="value">
-			<value>-10</value>
+			<value>0</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{5f80e7eb-0f9e-4e82-a9a0-fdf0de9c8e8b}</destination>
+			<destination>{f3227656-ffe0-4799-997e-fafbccda698c}</destination>
 		</relationship>
 		<relationship name="automatableObject">
 			<destination>{e5ecc40e-74d5-467f-92d8-943ccf4ae7f4}</destination>
@@ -81,27 +81,15 @@
 			<value>-80</value>
 		</property>
 	</object>
-	<object class="ADSRModulator" id="{5f80e7eb-0f9e-4e82-a9a0-fdf0de9c8e8b}">
+	<object class="ADSRModulator" id="{f3227656-ffe0-4799-997e-fafbccda698c}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>value</value>
 		</property>
-		<property name="initialValue">
-			<value>10</value>
-		</property>
-		<property name="attackTime">
-			<value>500</value>
-		</property>
 		<property name="peakValue">
-			<value>-10</value>
+			<value>-15</value>
 		</property>
 		<property name="sustainValue">
-			<value>-10</value>
-		</property>
-		<property name="releaseTime">
-			<value>500</value>
-		</property>
-		<property name="finalValue">
-			<value>10</value>
+			<value>-15</value>
 		</property>
 	</object>
 </objects>
